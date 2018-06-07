@@ -16,9 +16,13 @@ Invoking this with a simple file input will produce this session.
 
 When compiling and executing to test scanner.l and lexical.cpp in linux environment
 either run:
+
 > make
+
 which outputs:
+
 lex  -o scanner.c scanner.l
+
 cc -o scanner scanner.c -lfl
 
 then run:
