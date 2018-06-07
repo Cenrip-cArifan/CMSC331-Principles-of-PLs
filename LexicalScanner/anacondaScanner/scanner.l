@@ -1,9 +1,9 @@
-"""
+/*************************
    File: Scanner.l
    Name: Gabriel Kilungya
    Date: 10/6/2017
    Email: kilgab1@umbc.edu
-"""
+*************************/
 
 
 /*
