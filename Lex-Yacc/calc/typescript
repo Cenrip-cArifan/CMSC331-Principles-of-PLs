@@ -1,0 +1,110 @@
+Script started on Thu 07 Jun 2018 04:51:24 PM EDT
+[kilgab1@linux1 calc]./calc 
+
+331 Calculator
+(type ? for help and . to exit)
+
+>> ?
+Enter an expression in prefix notation followed by a newline.
+Operators include +, -, * and =.  Defined functions include
+sqrt, exp and log.  You can assign a variable using the =
+operator. Type . to exit.  Syntax errors will terminate the
+program, so be careful.
+
+>> = true 1
+1
+
+>> = false 0
+0
+
+>> + 1 2
+3
+
+>> + + 1 2 3
+6
+
+>> + 1 + 2 3
+6
+
+>> ==   + + 1 2 3   + 1 + 2 3
+1
+
+>> + * 2 3 4
+10
+
+>> * + 2 3 4
+20
+
+>> + 2 * 3 4
+14
+
+>> = a 100
+100
+
+>> = b a
+100
+
+>> = a + a 1
+101
+
+>> > a 100
+1
+
+>> not true
+0
+
+>> not false
+1
+
+>> not not true
+1
+
+>> not < a 101
+1
+
+>> and 1 0
+0
+
+>> and 1 1
+1
+
+>> and > a 100 > a b
+1
+
+>> or true false
+1
+
+>> or false or false or false true
+1
+
+>> (or false (or false (or false true)))
+1
+
+>> (or (or (or false false) false) true)
+1
+
+>> or > a b > b a
+1
+
+>> and > a 100 or > a b > b a
+1
+
+>> (and (> a 100) (or (> a b) (> b a)))
+1
+
+>> if true 100 200
+100
+
+>> if false 100 200
+200
+
+>> if == 100 + 99 1 ~1 ~2
+-1
+
+>> .
+Exiting 331 calc
+[kilgab1@linux1 calc]exit
+
+exit
+
+Script done on Thu 07 Jun 2018 04:54:52 PM EDT
