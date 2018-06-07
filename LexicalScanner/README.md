@@ -32,7 +32,9 @@ then run:
 or if it's already up-to-date, run:
 
 > lex  -o scanner.c scanner.l
+
 > cc -o scanner scanner.c -lfl
+
 > scanner < input
 
 the results should be the same as the one in the session file
